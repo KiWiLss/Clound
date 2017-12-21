@@ -22,7 +22,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".TagActivity"/>
+        <activity android:name=".TagActivity"
+            android:launchMode="singleTop"/>
     </application>
 
 </manifest>
